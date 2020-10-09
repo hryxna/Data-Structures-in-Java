@@ -37,7 +37,7 @@ public class maxHeaps {
 
     public int remove(){
         if(items.length == 0){
-            System.out.println("Cannot remove from emmty heap");
+            System.out.println("Cannot remove from empty heap");
         }
         int temp = items[0];
         items[0] = items[initialsize-1];
